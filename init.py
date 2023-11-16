@@ -1,6 +1,12 @@
 
-# This script installs and updates all the dependencies needed to run the
-# project. It is meant to be run from the root of the project directory.
+# This script installs and updates all the dependencies needed to start a new VELOCE service.
+# It requires Python3, which sadly can't install itself.
+
+# You need to have access to the repo specified below, in GIT_BASE_REPO in order for this script to work.
+
+# ============= USAGE ==============
+# > python3 init.py
+# ==================================
 
 # Configuration options : 
 GIT_SELF_REPO = "https://github.com/matthieuv-chabe/Bootstrap_Veloce"
